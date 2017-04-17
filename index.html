@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>
     </title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -27,23 +28,33 @@
         <li>SOCIAL</li>
       </ul>
       <h5>Categories</h5>
-      <input type="checkbox" name="administrative-checkbox" value="">
-      <label for="administrative-checkbox">Administrative</label>
-      <input type="checkbox" name="design-checkbox" value="">
-      <label for="design-checkbox">Design</label>
-      <input type="checkbox" name="executive-checkbox" value="">
-      <label for="executive-checkbox">Executive</label>
-      <input type="checkbox" name="human-resources-checkbox" value="">
-      <label for="human-resources-checkbox">Human Resources</label>
+      <ul>
+        <li>
+          <input type="checkbox" name="administrative-checkbox" value="">
+          <label class="admin-checkbox-label"for="administrative-checkbox">Administrative</label>
+        </li>
+        <li>
+          <input type="checkbox" name="design-checkbox" value="">
+          <label for="design-checkbox">Design</label>
+        </li>
+        <li>
+          <input type="checkbox" name="executive-checkbox" value="">
+          <label for="executive-checkbox">Executive</label>
+        </li>
+        <li>
+          <input type="checkbox" name="human-resources-checkbox" value="">
+          <label for="human-resources-checkbox">Human Resources</label>
+        </li>
+      </ul>
     </aside>
     <main>
       <header>
         <nav>
-        <button type="button" name="hamburger-menu-button"></button>
-        <input type="text" name="search-bar" placeholder="Search for a job, task or resume">
-        <button type="button" name="new-user-button"></button>
-        <button type="button" name="calendar-button"></button>
-        <button type="button" name="grid-button"></button>
+        <button type="button" class="hamburger-menu-button nav-button"></button>
+        <input type="text" class="search-bar" placeholder="Search for a job, task or resume">
+        <button type="button" class="new-user-button nav-button"></button>
+        <button type="button" class="calendar-button nav-button"></button>
+        <button type="button" class="grid-button nav-button"></button>
         </nav>
       </header>
       <section class="header-main">

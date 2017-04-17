@@ -4,6 +4,7 @@
 
 body {
   width: 100%;
+  margin: 0px;
 }
 
 aside {
@@ -12,9 +13,62 @@ aside {
   display: inline-block;
   float: left;
   min-height: 700px;
+  color: #7A8597;
+  padding-left: 10px;
 }
 
 main {
   width: 80%;
   float: right;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside li:last-child {
+  padding-bottom: 10px;
+  border-bottom: 1px solid slategrey;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-button {
+  height:40px;
+  min-width: 40px;
+  background-color: inherit;
+  border-color: grey;
+  padding: 0px;
+  border-style: solid;
+}
+
+.hamburger-menu-button {
+  border-width: 0 1px 1px 0;
+}
+
+.search-bar {
+  height: 40px;
+  width: 100%;
+  border-width: 0 0 1px 0;
+  border-color: grey;
+  border-style: solid;
+  padding-left: 10px;
+}
+
+.new-user-button {
+ border-width: 0 1px 1px 1px;
+}
+
+.calendar-button {
+  border-width: 0 1px 1px 0;
 }
