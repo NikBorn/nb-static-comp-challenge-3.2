@@ -6,6 +6,7 @@
     </title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   </head>
   <body>
     <aside class="user-nav">
@@ -50,20 +51,31 @@
     <main>
       <header>
         <nav>
-        <button type="button" class="hamburger-menu-button nav-button"></button>
+        <button type="button" class="hamburger-menu-button nav-button">
+          <div class="hamburger-menu-icon nav-icon"></div>
+        </button>
         <input type="text" class="search-bar" placeholder="Search for a job, task or resume">
-        <button type="button" class="new-user-button nav-button"></button>
-        <button type="button" class="calendar-button nav-button"></button>
-        <button type="button" class="grid-button nav-button"></button>
+        <button type="button" class="new-user-button nav-button">
+          <div class="new-user-icon nav-icon">
+          </div>
+        </button>
+        <button type="button" class="calendar-button nav-button">
+          <div class="calendar-icon nav-icon">
+          </div>
+        </button>
+        <button type="button" class="grid-button nav-button">
+          <div class="grid-icon nav-icon">
+          </div>
+        </button>
         </nav>
       </header>
       <section class="header-main">
         <h1>Customer Service Representative</h1>
         <h6>San Francisco, CA -
-          <span>Preview this post</span>
+          <span class="preview-post">Preview this post</span>
         </h6>
           <article class="main-btns-area">
-            <button type="button" class="open-button"></button>
+            <button type="button" class="open-button">Open</button>
             <button type="button" class="bookmark-button circle-btn"></button>
             <button type="button" class="edit-button circle-btn"></button>
             <button type="button" class="trash-button circle-btn"></button>
@@ -79,18 +91,18 @@
         </ul>
       </section>
       <section class="graphs-container">
-        <article class="applicants-pie-graph">
-          <p>3,154 APPLICANTS</p>
+        <article class="applicants-pie-graph pie-graph">
+          <p><span class="pie-graph-number">3,154</span><br>APPLICANTS</p>
         </article>
-        <article class="interviews-pie-graph">
-          <p>1,546 INTERVIEWS</p>
+        <article class="interviews-pie-graph pie-graph">
+          <p><span class='pie-graph-number'>1,546</span><br>INTERVIEWS</p>
         </article>
-        <article class="forwards-pie-graph">
-          <p>912 FORWARDS</p>
+        <article class="forwards-pie-graph pie-graph">
+          <p><span class="pie-graph-number">912</span><br> FORWARDS</p>
         </article>
         <article class="bar-graph-image">
         </article>
-        <label>TOTALS - Out of 5,231 views</label>
+        <label class="totals-label">TOTALS - Out of 5,231 views</label>
       </section>
       <table class="job-listing">
         <tr>
@@ -140,7 +152,7 @@
         </h3>
         <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
         mollis neque eget vestibpend.</p>
-        <input type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
+        <input class="copy-input" type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
         <button type="button" class="copy-button">Copy</button>
         <h3>
           <div class="widget-logo"></div>
@@ -148,7 +160,7 @@
         </h3>
         <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
         mollis neque eget vestibpend.</p>
-        <input type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
+        <input class="copy-input"type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
         <button type="button" class="copy-button">Copy</button>
         <h3>
           <div class="upload-logo"></div>
