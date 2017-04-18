@@ -12,7 +12,7 @@ aside {
   background-color: #354052;
   display: inline-block;
   float: left;
-  min-height: 700px;
+  min-height: 1000px;
   color: #7A8597;
   padding-left: 10px;
 }
@@ -20,9 +20,13 @@ aside {
 main {
   width: 80%;
   float: right;
+  background-color: #EDF2F6;
 }
 
-
+.user-name {
+  text-align: center;
+  padding: 0px;
+}
 
 ul {
   list-style-type: none;
@@ -71,4 +75,144 @@ nav {
 
 .calendar-button {
   border-width: 0 1px 1px 0;
+}
+
+.grid-button {
+  border-width: 0 0 1px 0;
+}
+
+.header-main {
+  padding-left: 40px;
+}
+
+h1 {
+  margin: 40px 0 0 0;
+  font-size: 24px;
+}
+
+h6 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+
+
+.main-btns-area {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+.open-button {
+  width: 40px;
+  height: 20px;
+  border-radius: 40%;
+  border: 1px solid grey;
+  background-color: inherit;
+}
+
+.circle-btn {
+  border-radius: 50%;
+  background-color: inherit;
+  border: 1px solid grey;
+  height: 20px;
+  width: 20px;
+}
+
+.header-main li {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+
+
+table {
+  width: 60%;
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #6F7E95;
+  border-collapse: collapse;
+  margin: 20px 0 20px 40px;
+}
+
+th {
+  background-color: #6F7E95;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+tr th {
+  padding: 20px 0;
+}
+
+tr {
+  border-bottom: 1px solid grey;
+}
+
+td {
+  padding: 20px 20px;
+  font-size: 14px;
+}
+
+
+
+.external-navigation {
+  width: 30%;
+  float: right;
+  margin-right: 20px;
+}
+
+.external-navigation p {
+color: #6F7E95;
+}
+
+
+h3 {
+  display: inline-block;
+  margin: 0px;
+}
+
+.social-media-button {
+  color: #FFFFFF;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.facebook-button {
+  background-color: #506ECB;
+  margin-top: 20px;
+}
+
+.twitter-button {
+  background-color: #01ADF5;
+}
+
+.linkedin-button {
+  background-color: #0381BC;
+}
+
+.copy-button {
+  background-color: #46BBBD;
+  color: #FFFFFF;
+  border: none;
+  margin: 0px;
+  padding: 0 10px;
+  height: 40px;
+  width: 70px;
+}
+
+.external-navigation input {
+  margin: 0 0 10px 0;
+  height: 40px;
+  padding: 0 0 0 10px;
+  border: none;
+  border-collapse: collapse;
+  width: 170px;
+  color: #6F7E95;
+  font-size: 12px;
 }
