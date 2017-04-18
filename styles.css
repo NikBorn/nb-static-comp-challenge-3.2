@@ -46,9 +46,10 @@ main {
   background-image: url("images/arrow-down.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 10px;
-  width: 10px;
+  height: 16px;
+  width: 16px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .aside-main-header {
@@ -163,7 +164,7 @@ nav {
 }
 
 .header-main {
-  padding: 40px 0 30px 40px;
+  padding: 40px 0 0px 40px;
   background-color: #FFFFFF;
 }
 
@@ -225,6 +226,13 @@ h6 {
   display: inline-block;
   font-size: 12px;
   margin-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+.header-main li:hover {
+  border-bottom: 4px solid #17a3f7;
+  padding-bottom: 16px;
 }
 
 .graphs-container {
