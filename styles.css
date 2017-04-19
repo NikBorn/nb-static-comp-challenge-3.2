@@ -70,6 +70,11 @@ aside ul {
   margin: 40px 0 0 0;
 }
 
+select {
+  background-color: inherit;
+  display: none;
+}
+
 h5 {
   margin: 0px;
   padding-left: 15px;
@@ -740,6 +745,7 @@ h3:first-of-type {
   .pie-graph-container {
     flex-direction: column;
     align-items: center;
+    padding: 0px;
   }
 
   .pie-graph {
@@ -754,6 +760,79 @@ h3:first-of-type {
     margin-top: 20px;
   }
 
+  .header-main ul {
+  display: none;
+  }
 
+  select {
+    display: block;
+    margin-top: 20px;
+  }
 
+}
+
+@media screen and (max-width: 580px) {
+  .header-main {
+    padding-left: 20px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .graphs-container {
+    padding: 20px;
+  }
+
+  .bar-graph-image {
+    width: 250px;
+    height: 105px;
+  }
+
+  .external-navigation {
+
+    margin: 0 20px 0 20px;
+  }
+
+  .social-media-section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .social-media-button {
+    width: 100%;
+    background-position: 10px 10px;
+  }
+
+  table {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  td {
+    min-width: 100px;
+  }
+
+  .copy-input {
+    width: 220px;
+  }
+
+  h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .new-user-button,
+  /*.grid-button,*/
+  .calendar-button {
+    display: none;
+  }
+
+  .grid-button {
+    border-left: 1px solid grey;
+  }
 }
