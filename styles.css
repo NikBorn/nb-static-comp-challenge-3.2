@@ -4,70 +4,70 @@
 }
 
 body {
-  width: 100%;
   margin: 0px;
+  width: 100%;
 }
 
 aside {
-  width: 14%;
   background-color: #354052;
+  color: #A4AFC1;
   display: inline-block;
   float: left;
   min-height: 1598px;
-  color: #A4AFC1;
+  width: 14%;
 }
 
 main {
-  width: 86%;
-  float: right;
   background-color: #EDF2F6;
+  float: right;
   padding-bottom: 40px;
+  width: 86%;
 }
 
 .user-pic {
   background-image: url("images/albert_einstein_head.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100px;
-  width: 100px;
-  background-size: cover;
   border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
   margin: 20px auto;
+  width: 100px;
 }
 
 .user-name {
-  text-align: center;
-  padding-left: 25px;
   display: inline-block;
+  padding-left: 25px;
   margin: 0 0 20px 0;
+  text-align: center;
 }
 
 .down-arrow {
   background-image: url("images/arrow-down.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 16px;
-  width: 16px;
   display: inline-block;
+  height: 16px;
   vertical-align: middle;
+  width: 16px;
 }
 
 .aside-main-header {
-  padding-top: 20px;
   border-top: 1px solid #262626;
+  padding-top: 20px;
 }
 
 aside ul {
   list-style-type: none;
-  padding: 0px;
   margin-bottom: 30px;
   margin-top: 10px;
+  padding: 0px;
 }
 
 .header-main ul {
   list-style-type: none;
-  padding: 0px;
   margin: 40px 0 0 0;
+  padding: 0px;
 }
 
 select {
@@ -76,27 +76,27 @@ select {
 }
 
 h5 {
+  color: #546175;
   margin: 0px;
   padding-left: 15px;
-  color: #546175;
 }
 
 aside li {
-  padding: 10px 0 10px 15px;
   font-size: 14px;
   font-weight: 700;
+  padding: 10px 0 10px 15px;
 }
 
 aside li:hover {
   background-color: #30394A;
   border-left: 2px solid #17A3F7;
-  padding: 10px 0 10px 13px;
   color: #FFFFFF;
+  padding: 10px 0 10px 13px;
 }
 
 .last-li {
-  padding-bottom: 40px;
   border-bottom: 1px solid #262626;
+  padding-bottom: 40px;
 }
 
 .last-li:hover {
@@ -108,14 +108,14 @@ aside li:hover {
 }
 
 .aside-icon {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 18px;
-  height: 18px;
   display: inline-block;
+  height: 18px;
   margin-right: 10px;
   vertical-align: middle;
+  width: 18px;
 }
 
 .house-icon {
@@ -205,15 +205,15 @@ nav {
 }
 
 .nav-button {
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-color: grey;
+  border-style: solid;
   height:60px;
   min-width: 60px;
-  background-color: #FFFFFF;
-  border-color: grey;
   padding: 0px;
-  border-style: solid;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .nav-button:hover {
@@ -221,10 +221,10 @@ nav {
 }
 
 .hamburger-menu-button {
-  padding: 2px;
-  display: flex;
-  border-width: 0 1px 1px 0;
   background-image: url("images/menu-4-48.png");
+  border-width: 0 1px 1px 0;
+  display: flex;
+  padding: 2px;
 }
 
 .hamburger-menu-button:hover {
@@ -232,27 +232,26 @@ nav {
 }
 
 .search-bar {
-  height: 60px;
-  width: 100%;
-  border-width: 0 0 1px 0;
   border-color: grey;
   border-style: solid;
+  border-width: 0 0 1px 0;
+  height: 60px;
   padding-left: 10px;
+  width: 100%;
 }
 
 .new-user-button {
-  border-width: 0 1px 1px 1px;
   background-image: url("images/add-user-48.png");
+  border-width: 0 1px 1px 1px;
 }
 
 .new-user-button:hover {
   background-image: url("images/add-user-48-F.png")
 }
 
-
 .calendar-button {
-  border-width: 0 1px 1px 0;
   background-image: url("images/calendar-10-48.png");
+  border-width: 0 1px 1px 0;
 }
 
 .calendar-button:hover {
@@ -269,20 +268,20 @@ nav {
 }
 
 .header-main {
-  padding: 60px 0 0px 40px;
   background-color: #FFFFFF;
+  padding: 60px 0 0px 40px;
 }
 
 h1 {
-  margin: 0 0 0 0;
   font-size: 24px;
   font-weight: 400;
+  margin: 0 0 0 0;
 }
 
 h6 {
-  margin: 0px;
   font-size: 12px;
   font-weight: 400;
+  margin: 0px;
 }
 
 .preview-post {
@@ -293,49 +292,47 @@ h6 {
   border-bottom: 2px solid #17a3f7;
 }
 
-
-
 .main-btns-area {
   display: inline-flex;
   float: right;
-  position: absolute;
-  margin-right: 20px;
   justify-content: space-between;
-  width: 260px;
+  margin-right: 20px;
+  position: absolute;
   right: 10px;
   top: 120px;
+  width: 260px;
 }
 
 .open-button {
   background-color: #FFFFFF;
-  border: 1px solid #9A9EAA;
-  border-radius: 50px;
-  height: 45px;
-  padding: 0 0 0 20px;
-  width: 100px;
-  margin: 0px;
   background-image: url('images/circle-16.png');
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 10px 12px;
-  font-weight: 700;
+  border: 1px solid #9A9EAA;
+  border-radius: 50px;
   color: #9A9EAA;
+  font-weight: 700;
+  height: 45px;
+  margin: 0px;
+  padding: 0 0 0 20px;
+  width: 100px;
 }
 
 .open-button:hover {
-  color: #FFFFFF;
   background-color: #17a3f7;
+  color: #FFFFFF;
 }
 
 .circle-btn {
   background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid grey;
   border-radius: 50%;
   height: 45px;
   padding: 0px;
   width: 45px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .circle-btn:hover {
@@ -379,10 +376,10 @@ h6 {
 }
 
 .graphs-container {
-  padding: 20px 40px 20px 40px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding: 20px 40px 20px 40px;
 }
 
 .pie-graph-container {
@@ -393,17 +390,17 @@ h6 {
 }
 
 .pie-graph {
+  align-items: center;
   border-radius: 50%;
+  border-style:  solid;
+  border-width: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   height: 170px;
-  width: 170px;
   margin: 10px 0 0 10px;
-  border-width: 10px;
-  border-style:  solid;
+  text-align: center;
+  width: 170px;
 }
 
 .applicants-pie-graph {
@@ -423,28 +420,28 @@ h6 {
 }
 
 .bar-graph-image {
-  display: inline-block;
   background-image: url("images/bar-chart.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 450px;
-  height: 189px;
-  vertical-align: middle;
+  display: inline-block;
   float: right;
+  height: 189px;
   margin-bottom: 20px;
+  width: 450px;
+  vertical-align: middle;
 }
 
 .bar-graph-label,
 .totals-label {
+  align-items: center;
+  background-color: #FFFFFF;
   border: 4px solid #E6EDF5;
   border-radius: 50px;
-  padding: 0;
-  background-color: #FFFFFF;
-  height: 40px;
   display: flex;
+  height: 40px;
   justify-content: space-around;
-  align-items: center;
   margin: 30px auto 20px auto;
+  padding: 0;
 }
 
 .totals-label {
@@ -456,19 +453,18 @@ h6 {
 }
 
 .line-divider {
-  /*width: 96%;*/
-  height: 2px;
   border: 1px solid #AAAEB8;
+  height: 2px;
   margin: 0 40px 40px 40px;
 }
 
 table {
-  width: 60%;
-  display: inline-block;
   background-color: #FFFFFF;
-  color: #6F7E95;
   border-collapse: collapse;
+  color: #6F7E95;
+  display: inline-block;
   margin: 20px 0 20px 40px;
+  width: 60%;
 }
 
 th {
@@ -486,22 +482,20 @@ tr {
 }
 
 td {
-  padding: 40px 20px;
   font-size: 14px;
   min-width: 180px;
+  padding: 40px 20px;
 }
 
-
-
 .external-navigation {
-  width: 27%;
   float: right;
   margin-right: 40px;
+  width: 27%;
 }
 
 .external-navigation p {
-color: #6F7E95;
-line-height: 1.4;
+  color: #6F7E95;
+  line-height: 1.4;
 }
 
 input[type="checkbox"] {
@@ -515,10 +509,10 @@ input[type="checkbox"] + label:before {
   font: 12px/1em sans-serif;
   height: 12px;
   margin: 0 .25em 0 0;
+  margin-right: 8px;
   padding: 0;
   vertical-align: top;
   width: 12px;
-  margin-right: 8px;
 }
 
 input[class="design-checkbox"] + label:before {
@@ -538,22 +532,22 @@ input[class="human-resources-checkbox"] + label:before {
 }
 
 input[type="checkbox"]:checked + label:before {
-  background-color: magenta;
   color: #666;
   content: "\2713";
   text-align: center;
 }
+
 input[type="checkbox"]:checked + label:after {
   font-weight: bold;
 }
 
 h3 {
+  border-top: 2px solid lightgrey;
+  color: #354052;
   display: inline-block;
+  font-size: 20px;
   margin: 30px 0 0 0;
   padding-top: 40px;
-  border-top: 2px solid lightgrey;
-  font-size: 20px;
-  color: #354052;
   width: 100%;
 }
 
@@ -563,17 +557,16 @@ h3:first-of-type {
 }
 
 .social-media-button {
-  color: #FFFFFF;
-  border: none;
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-  height: 50px;
-  background-size: 8%;
   background-position: 20px 14px;
   background-repeat: no-repeat;
+  background-size: 8%;
+  border: none;
+  color: #FFFFFF;
   display: inline-block;
+  height: 50px;
+  margin-bottom: 20px;
   vertical-align: text-top;
+  width: 100%;
 }
 
 .social-media-button:hover {
@@ -582,14 +575,9 @@ h3:first-of-type {
 
 .facebook-button {
   background-color: #506ECB;
-  margin-top: 20px;
   background-image: url('images/facebook-32.png');
+  margin-top: 20px;
 }
-
-/*.facebook-logo {
-  margin-left: 0px;
-  margin-right: auto;
-}*/
 
 .twitter-button {
   background-color: #01ADF5;
@@ -605,11 +593,11 @@ h3:first-of-type {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
   display: inline-block;
-  vertical-align: center;
+  height: 20px;
   margin-bottom: -2px;
+  vertical-align: center;
+  width: 20px;
 }
 
 .world-logo {
@@ -626,34 +614,32 @@ h3:first-of-type {
 
 .copy-button {
   background-color: #46BBBD;
-  color: #FFFFFF;
   border: none;
+  color: #FFFFFF;
+  height: 40px;
   margin: 0 0 0 -4px;
   padding: 0 10px;
-  height: 40px;
   width: 60px;
 }
 
 .email-resume-input {
-  width: 100%;
-  color: grey;
-  font-size: 12px;
-  height: 40px;
   border: none;
   color: #6F7E95;
-  padding: 0 0 0 10px;
   font-size: 15px;
+  height: 40px;
+  padding: 0 0 0 10px;
+  width: 100%;
 }
 
 .copy-input{
-  margin: 0 0 10px 0;
-  height: 40px;
-  padding: 0 0 0 10px;
   border: none;
   border-collapse: collapse;
-  width: 230px;
   color: #6F7E95;
   font-size: 15px;
+  height: 40px;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+  width: 230px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -667,8 +653,8 @@ h3:first-of-type {
 
   .pie-graph {
     height: 140px;
-    width: 140px;
     padding-top: 10px;
+    width: 140px;
   }
 
   .bar-graph-image {
@@ -710,8 +696,8 @@ h3:first-of-type {
   }
 
   table {
-    width: 90%;
     margin-left: 30px;
+    width: 90%;
   }
 
   .external-navigation {
@@ -743,14 +729,14 @@ h3:first-of-type {
   }
 
   .pie-graph-container {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     padding: 0px;
   }
 
   .pie-graph {
-    margin-bottom: 20px;
     height: 220px;
+    margin-bottom: 20px;
     width: 220px;
   }
 
@@ -761,7 +747,7 @@ h3:first-of-type {
   }
 
   .header-main ul {
-  display: none;
+    display: none;
   }
 
   select {
@@ -785,23 +771,22 @@ h3:first-of-type {
   }
 
   .bar-graph-image {
-    width: 250px;
     height: 105px;
+    width: 250px;
   }
 
   .external-navigation {
-
     margin: 0 20px 0 20px;
   }
 
   .social-media-section {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
   }
 
   .social-media-button {
-    width: 100%;
     background-position: 10px 10px;
+    width: 100%;
   }
 
   table {
@@ -819,15 +804,14 @@ h3:first-of-type {
 
   h3 {
     font-size: 18px;
-    padding-top: 20px;
     margin-top: 20px;
+    padding-top: 20px;
   }
 }
 
 @media screen and (max-width: 480px) {
 
   .new-user-button,
-  /*.grid-button,*/
   .calendar-button {
     display: none;
   }
