@@ -24,6 +24,8 @@ main {
   width: 86%;
 }
 
+
+
 .user-pic {
   background-image: url("images/albert_einstein_head.jpg");
   background-position: center;
@@ -720,7 +722,7 @@ h3:first-of-type {
   }
 
   .line-divider-arrow-container {
-    bottom: -220px;
+    bottom: 110px;
   }
 
   .copy-input {
@@ -751,7 +753,7 @@ h3:first-of-type {
   }
 
   .line-divider-arrow-container {
-    bottom: -770px;
+    bottom: -222px;
   }
 
   .header-main li {
@@ -791,6 +793,7 @@ h3:first-of-type {
 @media screen and (max-width: 760px) {
   .header-main {
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .pie-graph-container {
@@ -806,7 +809,7 @@ h3:first-of-type {
   }
 
   .line-divider-arrow-container {
-    bottom: -660px;
+    bottom: -790px;
   }
 
   .main-btns-area {
@@ -833,6 +836,10 @@ h3:first-of-type {
 
   h1 {
     font-size: 18px;
+  }
+
+  .line-divider-arrow-container {
+    bottom: -680px;
   }
 
   .graphs-container {
