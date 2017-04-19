@@ -13,7 +13,7 @@ aside {
   background-color: #354052;
   display: inline-block;
   float: left;
-  min-height: 1570px;
+  min-height: 1598px;
   color: #A4AFC1;
 }
 
@@ -72,20 +72,20 @@ aside ul {
 
 h5 {
   margin: 0px;
-  padding-left: 10px;
+  padding-left: 15px;
   color: #546175;
 }
 
 aside li {
-  padding: 10px 0 10px 11px;
-  font-size: 12px;
+  padding: 10px 0 10px 15px;
+  font-size: 14px;
   font-weight: 700;
 }
 
 aside li:hover {
   background-color: #30394A;
   border-left: 2px solid #17A3F7;
-  padding-left: 9px;
+  padding: 10px 0 10px 13px;
   color: #FFFFFF;
 }
 
@@ -94,8 +94,103 @@ aside li:hover {
   border-bottom: 1px solid #262626;
 }
 
+.last-li:hover {
+  padding: 10px 0px 40px 13px;
+}
+
 .checkbox-li {
   margin-bottom: 20px;
+}
+
+.aside-icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.house-icon {
+  background-image: url('images/house-32.png');
+}
+
+.house-icon:hover {
+  background-image: url('images/house-32W.png');
+}
+
+.jobs-icon {
+  background-image: url('images/briefcase-5-32.png');
+}
+
+.jobs-icon:hover {
+  background-image: url('images/briefcase-5-32W.png');
+}
+
+.resumes-icon {
+  background-image: url('images/resume-32.png');
+}
+
+.resumes-icon:hover {
+  background-image: url('images/resume-32W.png');
+}
+
+.tasks-icon {
+  background-image: url('images/clipboard-3-32.png');
+}
+
+.tasks-icon:hover {
+  background-image: url('images/clipboard-3-32W.png');
+}
+
+.calendar-icon {
+  background-image: url('images/calendar-icon-32.png');
+}
+
+.calendar-icon:hover {
+  background-image: url('images/calendar-icon-32W.png');
+}
+
+.users-icon {
+  background-image: url('images/group-32.png');
+}
+
+.users-icon:hover {
+  background-image: url('images/group-32W.png');
+}
+
+.locations-icon {
+  background-image: url('images/map-marker-2-32.png');
+}
+
+.locations-icon:hover {
+  background-image: url('images/map-marker-2-32W.png');
+}
+
+.workflows-icon {
+  background-image: url('images/map-6-32.png');
+}
+
+.workflows-icon:hover {
+  background-image: url('images/map-6-32W.png');
+}
+
+.job-icon {
+  background-image: url('images/wired-network-32.png');
+}
+
+.job-icon:hover {
+  background-image: url('images/wired-network-32W.png');
+}
+
+.social-icon {
+  background-image: url('images/sharethis-3-32.png');
+}
+
+.social-icon:hover {
+  background-image: url('images/sharethis-3-32W.png');
 }
 
 
@@ -271,7 +366,6 @@ h6 {
   font-size: 14px;
   margin-right: 30px;
   padding-bottom: 20px;
-
 }
 
 .header-main li:hover {
@@ -295,11 +389,13 @@ h6 {
 
 .pie-graph {
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: 170px;
   width: 170px;
-  padding-top: 20px;;
   margin: 10px 0 0 10px;
   border-width: 10px;
   border-style:  solid;
@@ -335,7 +431,7 @@ h6 {
 
 .bar-graph-label,
 .totals-label {
-  border: 2px solid #E6EDF5;
+  border: 4px solid #E6EDF5;
   border-radius: 50px;
   padding: 0;
   background-color: #FFFFFF;
@@ -403,14 +499,57 @@ color: #6F7E95;
 line-height: 1.4;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  border: 1px solid #262626;
+  content: "\00a0";
+  display: inline-block;
+  font: 12px/1em sans-serif;
+  height: 12px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 12px;
+  margin-right: 8px;
+}
+
+input[class="design-checkbox"] + label:before {
+  background-color: #2AB0FB;
+}
+
+input[class="administrative-checkbox"] + label:before {
+  background-color: #FED710;
+}
+
+input[class="executive-checkbox"] + label:before {
+  background-color: #DF1D5F;
+}
+
+input[class="human-resources-checkbox"] + label:before {
+  background-color: #00B18C;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: magenta;
+  color: #666;
+  content: "\2713";
+  text-align: center;
+}
+input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
+}
 
 h3 {
   display: inline-block;
-  margin: 40px 0 0 0;
+  margin: 30px 0 0 0;
   padding-top: 40px;
   border-top: 2px solid lightgrey;
-  font-size: 22px;
+  font-size: 20px;
   color: #354052;
+  width: 100%;
 }
 
 h3:first-of-type {
@@ -424,20 +563,60 @@ h3:first-of-type {
   display: block;
   width: 100%;
   margin-bottom: 20px;
-  height: 40px;
+  height: 50px;
+  background-size: 8%;
+  background-position: 20px 14px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.social-media-button:hover {
+  background-color: #14CC23;
 }
 
 .facebook-button {
   background-color: #506ECB;
   margin-top: 20px;
+  background-image: url('images/facebook-32.png');
 }
+
+/*.facebook-logo {
+  margin-left: 0px;
+  margin-right: auto;
+}*/
 
 .twitter-button {
   background-color: #01ADF5;
+  background-image: url('images/twitter-32.png');
 }
 
 .linkedin-button {
   background-color: #0381BC;
+  background-image: url('images/linkedin-2-32.png');
+}
+
+.links-logo {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: -2px;
+}
+
+.world-logo {
+  background-image: url('images/globe-2-32.png');
+}
+
+.widget-logo {
+  background-image: url('images/computer-32.png');
+}
+
+.upload-logo {
+  background-image: url('images/email-10-32.png');
 }
 
 .copy-button {
@@ -467,7 +646,114 @@ h3:first-of-type {
   padding: 0 0 0 10px;
   border: none;
   border-collapse: collapse;
-  min-width: 230px;
+  width: 230px;
   color: #6F7E95;
   font-size: 15px;
+}
+
+@media screen and (max-width: 1040px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .pie-graph {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+  }
+
+  .bar-graph-image {
+    height: 168px;
+    width: 400px;
+  }
+
+  .copy-input {
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .graphs-container {
+    flex-direction: column;
+  }
+
+  .bar-graph-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bar-graph-image {
+    width: 500px;
+    height: 210px;
+    margin: 0px auto;
+  }
+
+  .pie-graph {
+    height: 180px;
+    width: 180px;
+    margin-right: 30px;
+  }
+
+  .header-main li {
+    font-size: 14px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  table {
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .external-navigation {
+    width: 90%;
+  }
+
+  .social-media-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .social-media-button {
+    width: 32%;
+  }
+
+  .facebook-button {
+    margin-top: 0px;
+  }
+
+  .copy-input {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header-main {
+    padding-top: 20px;
+  }
+
+  .pie-graph-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pie-graph {
+    margin-bottom: 20px;
+    height: 220px;
+    width: 220px;
+  }
+
+  .main-btns-area {
+    float: none;
+    position: static;
+    margin-top: 20px;
+  }
+
+
+
 }

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>
     </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
@@ -16,36 +17,76 @@
       <div class="down-arrow"></div>
       <h5 class="aside-main-header">Main</h5>
       <ul>
-        <li>HOME</li>
-        <li>JOBS</li>
-        <li>RESUMES</li>
-        <li>TASKS</li>
-        <li class="last-li">CALENDAR</li>
+        <li>
+          <article class="house-icon aside-icon">
+          </article>
+          HOME
+        </li>
+        <li>
+          <article class="jobs-icon aside-icon">
+          </article>
+          JOBS
+        </li>
+        <li>
+          <article class="resumes-icon aside-icon">
+          </article>
+          RESUMES
+        </li>
+        <li>
+          <article class="tasks-icon aside-icon">
+          </article>
+          TASKS
+        </li>
+        <li class="last-li">
+          <article class="calendar-icon aside-icon">
+          </article>
+          CALENDAR
+        </li>
       </ul>
       <h5>Admin</h5>
       <ul>
-        <li>USERS</li>
-        <li>LOCATIONS</li>
-        <li>WORKFLOWS</li>
-        <li>JOB BOARDS</li>
-        <li class="last-li">SOCIAL</li>
+        <li>
+          <article class="users-icon aside-icon">
+          </article>
+          USERS
+        </li>
+        <li>
+          <article class="locations-icon aside-icon">
+          </article>
+          LOCATIONS
+        </li>
+        <li>
+          <article class="workflows-icon aside-icon">
+          </article>
+          WORKFLOWS
+        </li>
+        <li>
+          <article class="job-icon aside-icon">
+          </article>
+          JOB BOARDS
+        </li>
+        <li class="last-li">
+          <article class="social-icon aside-icon">
+          </article>
+          SOCIAL
+        </li>
       </ul>
       <h5>Categories</h5>
       <ul>
         <li class="checkbox-li">
-          <input type="checkbox" name="administrative-checkbox" value="">
+          <input type="checkbox" class="administrative-checkbox" value="">
           <label class="admin-checkbox-label"for="administrative-checkbox">Administrative</label>
         </li>
         <li class="checkbox-li">
-          <input type="checkbox" name="design-checkbox" value="">
+          <input type="checkbox" class="design-checkbox" value="">
           <label for="design-checkbox">Design</label>
         </li>
         <li class="checkbox-li">
-          <input type="checkbox" name="executive-checkbox" value="">
+          <input type="checkbox" class="executive-checkbox" value="">
           <label for="executive-checkbox">Executive</label>
         </li>
         <li class="checkbox-li">
-          <input type="checkbox" name="human-resources-checkbox" value="">
+          <input type="checkbox" class="human-resources-checkbox" value="">
           <label for="human-resources-checkbox">Human Resources</label>
         </li>
       </ul>
@@ -115,7 +156,11 @@
         <table class="job-listing">
           <tr>
             <th>Job Description</th>
-            <th><div></div></th>
+            <th>
+              <article class="edit-descprition-button">
+                <p>EDIT</p>
+              </article>
+            </th>
           </tr>
           <tr>
             <td>POSITION TITLE</td>
@@ -151,11 +196,17 @@
           </tr>
         </table>
         <section class="external-navigation">
-          <button type="button" class="facebook-button social-media-button">Post to Facebook</button>
-          <button type="button" class="twitter-button social-media-button">Tweek this Job</button>
-          <button type="button" class="linkedin-button social-media-button">Post to Linkedin</button>
+          <section class="social-media-section">
+            <button type="button" class="facebook-button social-media-button">
+              <article class="facebook-logo">
+              </article>
+              Post to Facebook
+            </button>
+            <button type="button" class="twitter-button social-media-button">Tweek this Job</button>
+            <button type="button" class="linkedin-button social-media-button">Post to Linkedin</button>
+          </section>
           <h3>
-            <div class="world-logo"></div>
+            <div class="world-logo links-logo"></div>
             Link to this Job
           </h3>
           <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
@@ -163,7 +214,7 @@
           <input class="copy-input" type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
           <button type="button" class="copy-button">Copy</button>
           <h3>
-            <div class="widget-logo"></div>
+            <div class="widget-logo links-logo"></div>
             Use the Button Widget
           </h3>
           <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
@@ -171,8 +222,8 @@
           <input class="copy-input"type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
           <button type="button" class="copy-button">Copy</button>
           <h3>
-            <div class="upload-logo"></div>
-            Use the Button Widget
+            <div class="upload-logo links-logo"></div>
+            Upload Resume by Email
           </h3>
           <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
           mollis neque eget vestibpend.</p>
