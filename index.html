@@ -32,19 +32,19 @@
       </ul>
       <h5>Categories</h5>
       <ul>
-        <li>
+        <li class="checkbox-li">
           <input type="checkbox" name="administrative-checkbox" value="">
           <label class="admin-checkbox-label"for="administrative-checkbox">Administrative</label>
         </li>
-        <li>
+        <li class="checkbox-li">
           <input type="checkbox" name="design-checkbox" value="">
           <label for="design-checkbox">Design</label>
         </li>
-        <li>
+        <li class="checkbox-li">
           <input type="checkbox" name="executive-checkbox" value="">
           <label for="executive-checkbox">Executive</label>
         </li>
-        <li>
+        <li class="checkbox-li">
           <input type="checkbox" name="human-resources-checkbox" value="">
           <label for="human-resources-checkbox">Human Resources</label>
         </li>
@@ -53,21 +53,16 @@
     <main>
       <header>
         <nav>
-        <button type="button" class="hamburger-menu-button nav-button">
-          <div class="hamburger-menu-icon nav-icon"></div>
-        </button>
+        <a href="#" class="hamburger-menu-anchor">
+          <button type="button" class="hamburger-menu-button nav-button">
+          </button>
+        </a>
         <input type="text" class="search-bar" placeholder="Search for a job, task or resume">
         <button type="button" class="new-user-button nav-button">
-          <div class="new-user-icon nav-icon">
-          </div>
         </button>
         <button type="button" class="calendar-button nav-button">
-          <div class="calendar-icon nav-icon">
-          </div>
         </button>
         <button type="button" class="grid-button nav-button">
-          <div class="grid-icon nav-icon">
-          </div>
         </button>
         </nav>
       </header>
@@ -77,7 +72,7 @@
           <span class="preview-post">Preview this post</span>
         </h6>
           <article class="main-btns-area">
-            <button type="button" class="open-button">Open</button>
+            <button type="button" class="open-button"><article class="green-dot"></article>OPEN</button>
             <button type="button" class="bookmark-button circle-btn"></button>
             <button type="button" class="edit-button circle-btn"></button>
             <button type="button" class="trash-button circle-btn"></button>
@@ -93,89 +88,100 @@
         </ul>
       </section>
       <section class="graphs-container">
-        <article class="applicants-pie-graph pie-graph">
-          <p><span class="pie-graph-number">3,154</span><br>APPLICANTS</p>
+        <section class="pie-graph-container">
+          <article class="applicants-pie-graph pie-graph">
+            <p><span class="pie-graph-number">3,154</span><br>APPLICANTS</p>
+          </article>
+          <article class="interviews-pie-graph pie-graph">
+            <p><span class='pie-graph-number'>1,546</span><br>INTERVIEWS</p>
+          </article>
+          <article class="forwards-pie-graph pie-graph">
+            <p><span class="pie-graph-number">912</span><br> FORWARDS</p>
+          </article>
+          <article class="totals-label">
+          <p class="totals-text">TOTALS - Out of 5,231 views</p>
+          </article>
+        </section>
+          <section class="bar-graph-container">
+            <article class="bar-graph-image">
+            </article>
+            <article class="bar-graph-label">
+              <p class="bar-graph-text">APPLICANTS/DAY</p>
+            </article>
+          </section>
+        </section>
+        <article class="line-divider">
         </article>
-        <article class="interviews-pie-graph pie-graph">
-          <p><span class='pie-graph-number'>1,546</span><br>INTERVIEWS</p>
-        </article>
-        <article class="forwards-pie-graph pie-graph">
-          <p><span class="pie-graph-number">912</span><br> FORWARDS</p>
-        </article>
-        <article class="bar-graph-image">
-        </article>
-        <label class="totals-label">TOTALS - Out of 5,231 views</label>
-      </section>
-      <table class="job-listing">
-        <tr>
-          <th>Job Description</th>
-          <th><div></div></th>
-        </tr>
-        <tr>
-          <td>POSITION TITLE</td>
-          <td>Customer Service Representative</td>
-        </tr>
-        <tr>
-          <td>LOCATION</td>
-          <td>San Francisco, CA</td>
-        </tr>
-        <tr>
-          <td>EMPLOYMENT TYPE</td>
-          <td>Full-time</td>
-        </tr>
-        <tr>
-          <td>EXPERIENCE</td>
-          <td>Mid-level</td>
-        </tr>
-        <tr>
-          <td>STATUS</td>
-          <td>Open</td>
-        </tr>
-        <tr>
-          <td>DESCRIPTION</td>
-          <td>The Customer Service Representative is responisble for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
-        </tr>
-        <tr>
-          <td>HIRING LEAD</td>
-          <td>Tom Tizzy</td>
-        </tr>
-        <tr>
-          <td>APPROVED SALARY</td>
-          <td>$58,000</td>
-        </tr>
-      </table>
-      <section class="external-navigation">
-        <button type="button" class="facebook-button social-media-button">Post to Facebook</button>
-        <button type="button" class="twitter-button social-media-button">Tweek this Job</button>
-        <button type="button" class="linkedin-button social-media-button">Post to Linkedin</button>
-        <h3>
-          <div class="world-logo"></div>
-          Link to this Job
-        </h3>
-        <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
-        mollis neque eget vestibpend.</p>
-        <input class="copy-input" type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
-        <button type="button" class="copy-button">Copy</button>
-        <h3>
-          <div class="widget-logo"></div>
-          Use the Button Widget
-        </h3>
-        <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
-        mollis neque eget vestibpend.</p>
-        <input class="copy-input"type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
-        <button type="button" class="copy-button">Copy</button>
-        <h3>
-          <div class="upload-logo"></div>
-          Use the Button Widget
-        </h3>
-        <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
-        mollis neque eget vestibpend.</p>
-        <input class="email-resume-input" type="text" value="tomizzy@gmail.com">
+        <table class="job-listing">
+          <tr>
+            <th>Job Description</th>
+            <th><div></div></th>
+          </tr>
+          <tr>
+            <td>POSITION TITLE</td>
+            <td>Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td>LOCATION</td>
+            <td>San Francisco, CA</td>
+          </tr>
+          <tr>
+            <td>EMPLOYMENT TYPE</td>
+            <td>Full-time</td>
+          </tr>
+          <tr>
+            <td>EXPERIENCE</td>
+            <td>Mid-level</td>
+          </tr>
+          <tr>
+            <td>STATUS</td>
+            <td>Open</td>
+          </tr>
+          <tr>
+            <td>DESCRIPTION</td>
+            <td>The Customer Service Representative is responisble for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
+          </tr>
+          <tr>
+            <td>HIRING LEAD</td>
+            <td>Tom Tizzy</td>
+          </tr>
+          <tr>
+            <td>APPROVED SALARY</td>
+            <td>$58,000</td>
+          </tr>
+        </table>
+        <section class="external-navigation">
+          <button type="button" class="facebook-button social-media-button">Post to Facebook</button>
+          <button type="button" class="twitter-button social-media-button">Tweek this Job</button>
+          <button type="button" class="linkedin-button social-media-button">Post to Linkedin</button>
+          <h3>
+            <div class="world-logo"></div>
+            Link to this Job
+          </h3>
+          <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
+          mollis neque eget vestibpend.</p>
+          <input class="copy-input" type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
+          <button type="button" class="copy-button">Copy</button>
+          <h3>
+            <div class="widget-logo"></div>
+            Use the Button Widget
+          </h3>
+          <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
+          mollis neque eget vestibpend.</p>
+          <input class="copy-input"type="text" value="www.adfads-lkaadfliu/?awakjh/.com">
+          <button type="button" class="copy-button">Copy</button>
+          <h3>
+            <div class="upload-logo"></div>
+            Use the Button Widget
+          </h3>
+          <p>Loren ipsum delor sit amet, consectetur adipis, cing elit.  Interger
+          mollis neque eget vestibpend.</p>
+          <input class="email-resume-input" type="text" value="tomizzy@gmail.com">
 
 
-      </section>
+        </section>
 
-    </main>
+      </main>
 
-  </body>
-</html>
+    </body>
+  </html>
